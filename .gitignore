@@ -1,0 +1,33 @@
+# ── PDF Notes (local only, never push) ───────────────────────────────────────
+pdf_notes/
+
+# ── Raw Data (large files, download from Kaggle locally) ─────────────────────
+data/zomato.csv
+data/nutrients.csv
+
+# ── Jupyter Notebook Checkpoints ─────────────────────────────────────────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python Cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# ── Virtual Environment ───────────────────────────────────────────────────────
+venv/
+env/
+.env
+.venv/
+
+# ── OS Files ──────────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── IDE / Editor Files ────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
